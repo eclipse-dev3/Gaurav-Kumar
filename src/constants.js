@@ -3,7 +3,7 @@
 
 import htmlLogo from './assets/techLogo/html.png';
 import cssLogo from './assets/techLogo/css.png';
-import jsLogo from './assets/techLogo/JavaScript.png';
+import JavaScriptLogo from './assets/techLogo/JavaScript.png';
 import reactLogo from './assets/techLogo/reactjs.png';
 import reduxLogo from './assets/techLogo/redux.png';
 import tailwindLogo from './assets/techLogo/tailwindcss.png';
@@ -69,7 +69,7 @@ export const SkillsInfo = [
         skills: [
             { name: 'HTML', logo: htmlLogo },
             { name: 'CSS', logo: cssLogo },
-            { name: 'JavaScript', logo: jsLogo },
+            { name: 'JavaScript', logo: JavaScriptLogo },
             { name: 'React JS', logo: reactLogo },
             { name: 'Redux', logo: reduxLogo },
             { name: 'Tailwind CSS', logo: tailwindLogo },
@@ -87,7 +87,7 @@ export const SkillsInfo = [
         skills: [
             { name: 'C', logo: cLogo },
             { name: 'C++', logo: cppLogo },
-            { name: 'JavaScript', logo: jsLogo },
+            { name: 'JavaScript', logo: JavaScriptLogo },
         ],
     },
     {
@@ -121,7 +121,7 @@ export const projects = [
         image: Spotify,
         tags: ["HTML", "CSS", "JavaScript", "API"],
         github: "https://github.com/eclipse-dev3/spotify-clone",
-        webapp: "https://githubprofiledetective.netlify.app/",
+        webapp: "",
     },
 ]
 
