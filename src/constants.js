@@ -4,7 +4,6 @@
 import htmlLogo from './assets/techLogo/html.png';
 import cssLogo from './assets/techLogo/css.png';
 import javascript from "./assets/techLogo/javascript.png";
-
 import reactLogo from './assets/techLogo/reactjs.png';
 import reduxLogo from './assets/techLogo/redux.png';
 import tailwindLogo from './assets/techLogo/tailwindcss.png';
@@ -45,18 +44,6 @@ import Spotify from './assets/spotify.png'
 
 import SchoolLogo from './assets/school.jpeg'
 import CollegeLogo from './assets/college.jpeg'
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -103,10 +90,6 @@ export const SkillsInfo = [
         ],
     },
 ];
-
-
-
-
 
 
 
