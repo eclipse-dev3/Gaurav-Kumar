@@ -105,7 +105,7 @@ export const projects = [
         image: Spotify,
         tags: ["HTML", "CSS", "JavaScript", "API"],
         github: "https://github.com/eclipse-dev3/spotify-clone",
-        webapp: "",
+        webapp: "https://gaurav-spotify-03.vercel.com",
     },
 ]
 
