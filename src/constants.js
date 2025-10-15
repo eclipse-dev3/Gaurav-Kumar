@@ -37,6 +37,7 @@ export default ProfileImg;
 // Projects Images
 
 import Spotify from './assets/spotify.png'
+import NoteTodo from './assets/note-todo.png'
 
 
 
@@ -106,6 +107,15 @@ export const projects = [
         tags: ["HTML", "CSS", "JavaScript", "API"],
         github: "https://github.com/eclipse-dev3/spotify-clone",
         webapp: "https://gaurav-spotify-03.vercel.app/",
+    },
+    {
+        id: 2,
+        title: "📝 Note-Todo Combine.",
+        description: 'A responsive notes and to-dos web application designed for efficient daily organization. It allows users to create, edit, pin, lock, and delete notes, as well as manage to-do lists with completion tracking. Featuring secure note encryption, recycle bin management, and smooth UI transitions, the app demonstrates my skills in React.js, Tailwind CSS, component-based architecture, state management, and responsive design.',
+        image: NoteTodo,
+        tags: ['React.Js', 'Tailwind Css'],
+        github: "https://github.com/eclipse-dev3/Note-Todo",
+        webapp: "https://note-todo-seven.vercel.app/",
     },
 ]
 
