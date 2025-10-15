@@ -37,7 +37,7 @@ export default ProfileImg;
 // Projects Images
 
 import Spotify from './assets/spotify.png'
-import NoteTodo from './assets/note-todo.png'
+import NoteTodo from './assets/NoteTodo.png'
 
 
 
