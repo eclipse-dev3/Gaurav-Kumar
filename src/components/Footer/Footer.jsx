@@ -1,4 +1,6 @@
-import { FaTwitter, FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 
 const Footer = () => {
   // Smooth scroll function
@@ -36,8 +38,8 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaTwitter />, link: "https://x.com/eclipse_devX" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/me/" },
+            { icon: <FaXTwitter />, link: "https://x.com/eclipse_devX" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/gaurav-kumar-5b678437a/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/itseclipsedev/?next=%2F" },
             { icon: <FaGithub />, link: "https://github.com/eclipse-dev3" },
 

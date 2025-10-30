@@ -1,6 +1,8 @@
 import { Typewriter } from 'react-simple-typewriter'
 import Tilt from 'react-parallax-tilt'
 import ProfileImg from '../../constants'
+import { IoMdCloudDownload } from "react-icons/io";
+
 
 export default function About() {
   return (
@@ -41,9 +43,9 @@ export default function About() {
               delaySpeed={2000}
             />
           </h3>
-          <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leadind-relaxed'
-          >I’m a frontend developer passionate about creating clean, responsive, and user-friendly web applications. I work with HTML, CSS, JavaScript, React, and Tailwind CSS, and I’m always eager to keep learning, take on new challenges, and grow as a developer.</p>
-          <a href="#"
+          <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed'
+          >I’m a frontend developer passionate about creating clean, responsive, and user-friendly web applications. I work with HTML, CSS, JavaScript, React, Redux Toolkit, and Tailwind CSS, and I’m always eager to keep learning, take on new challenges, and grow as a developer.</p>
+          <a href="https://www.canva.com/design/DAG2IaRChCM/6kTPu2KEIZkvbbjqIFRULQ/edit?utm_content=DAG2IaRChCM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target='_blank'
             rel='noopener noreferrer'
             className='inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105'
@@ -52,7 +54,8 @@ export default function About() {
               boxShadow: '0 0 2px #8245ec,0 0 2px #8245ec,0 0 40px #8245ec'
             }}
           >
-            Download CV
+            <IoMdCloudDownload className='inline-block mr-3 mb-1 text-2xl' />
+            <span>Resume</span>
           </a>
         </div>
         {/* Right side  */}
@@ -73,7 +76,6 @@ export default function About() {
             />
           </Tilt>
         </div>
-
 
       </div>
     </section>
