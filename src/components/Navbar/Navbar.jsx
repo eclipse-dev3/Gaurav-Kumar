@@ -99,16 +99,16 @@ export default function Navbar() {
             {/* Mobile items  */}
 
             {isOpen && (
-                <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 
-            bg-[#050414]/60 
+                <div className="absolute top-13 right-0 py-6 px-9 transition-all duration-300 ease-in-out
+            bg-[#1c0a47] 
             backdrop-blur-lg 
-            z-50 rounded-lg shadow-lg md:hidden"
+            z-50 rounded-tl-lg rounded-bl-lg shadow-lg md:hidden"
                 >
-                    <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
+                    <ul className="flex flex-col items-start justify-between gap-6 text-gray-300">
                         {menuItems.map((item) => (
                             <li
                                 key={item.id}
-                                className={`cursor-pointer hover:text-white ${activeSection === item.id ? "text-[#8245ec]" : ""
+                                className={`w-full cursor-pointer py-3 px-6 rounded hover:text-white ${activeSection === item.id ? "bg-[#3b0992]" : ""
                                     }`}
                             >
                                 <button onClick={() => handleMenuClick(item.id)}>
@@ -116,9 +116,9 @@ export default function Navbar() {
                                 </button>
                             </li>
                         ))}
-                        <div className="flex space-x-4">
+                        <div className="flex w-full  py-3 px-6 space-x-4 justify-between">
                             <a
-                                href="https://github.com/codingmastr"
+                                href="https://github.com/eclipse-dev3"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white"
@@ -126,7 +126,7 @@ export default function Navbar() {
                                 <FaGithub size={24} />
                             </a>
                             <a
-                                href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
+                                href="https://www.linkedin.com/in/gaurav-kumar-5b678437a/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-gray-300 hover:text-white"
