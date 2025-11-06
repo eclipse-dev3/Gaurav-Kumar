@@ -153,3 +153,4 @@ export const education = [
         degree: "UP Board(X) - Science & Mathematics",
     },
 ];
+
