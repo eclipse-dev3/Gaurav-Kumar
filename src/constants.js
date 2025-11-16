@@ -106,7 +106,7 @@ export const projects = [
         image: Spotify,
         tags: ["HTML", "CSS", "JavaScript", "API"],
         github: "https://github.com/eclipse-dev3/spotify-clone",
-        webapp: "https://gaurav-spotify-03.vercel.app/",
+        webapp: "https://ownmusic03.vercel.app",
     },
     {
         id: 2,
@@ -115,7 +115,7 @@ export const projects = [
         image: NoteTodo,
         tags: ['React.Js', 'Tailwind Css'],
         github: "https://github.com/eclipse-dev3/Note-Todo",
-        webapp: "https://note-todo-seven.vercel.app/",
+        webapp: "https://owndocs03.vercel.app",
     },
 ]
 
